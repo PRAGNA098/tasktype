@@ -1,5 +1,5 @@
 // A status can only ever be one of these three exact strings.
-type TaskStatus = "do" | "in-progress" | "done";
+type TaskStatus = "todo" | "in-progress" | "done";
 
 // Every Task must have this exact shape.
 interface Task {
